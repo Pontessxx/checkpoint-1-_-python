@@ -27,6 +27,9 @@ while True:
         n2 = troca_sete(n2)
         soma = n1 + n2
         soma = troca_sete(soma)
+        if soma > 198: 
+            print("erro: ultrapassou o limite de soma => 99 + 99 = 198")
+            break
 
         print(f"Soma dos numeros: {soma}")
         break
