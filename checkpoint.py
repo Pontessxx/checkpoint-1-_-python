@@ -18,7 +18,8 @@ while True:
         n2 = int(str(n2).replace('7', '0'))
 
         soma_teste = n1 + n2
-        soma_teste = int(str(soma_teste).replace('7','0'))
+        if '7' in str(soma_teste):
+            soma_teste = int(str(soma_teste).replace('7','0'))
 
         print(f"Soma dos numeros: {n1} + {n2} = {soma_teste}")
         break
