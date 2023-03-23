@@ -1,24 +1,24 @@
 def troca_sete(x):
     #Substitui todos os dígitos 7 por 0 em um número.
-    resultado = 0
-    multi = 1
+    resultado = 0 #inicia com 0
+    multi = 1 #inicia com 1
     while x > 0:
         digito = x % 10
         if digito == 7:
-            digito = 0
-        resultado += digito * multi
-        multi *= 10
-        x //= 10
+            digito = 0       # qualquer 7 vira 0
+        resultado += digito * multi #resultado
+        multi = 10 * multi
+        x //= 10 # x = x//10
     return resultado
 while True:
-    print("______________________________")
-    print("-  checkpoint 1 with python  -")
-    print("______________________________")
+    print("___________Team: Pontes____________")
+    print("-    checkpoint 1 with python     -")
+    print("___________________________________")
     print("\n*use numeros entre 0 a 99*")
     n1 = int(input("Digite o primeiro numero: "))
     n2 = int(input("Digite o segundo numero: "))
 
-    if n1 < 0 or n1 > 99 or n2 < 0 or n2 > 99:
+    if n1 < 0 or n1 > 99 or n2 < 0 or n2 > 99: #num pertencente 0 a 99
         print("\n Erro:")
         print("\n Os numeros devem estar entre 0 a 99")
         print("---Tente novamente!---")
