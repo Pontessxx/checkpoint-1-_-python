@@ -25,3 +25,4 @@ while True:
         break
 
 #teste numero 2 
+# não devo usar string tentar novaemnte
