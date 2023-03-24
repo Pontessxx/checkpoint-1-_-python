@@ -14,9 +14,9 @@ def troca_sete(x):
         x //= 10 # x = x//10
     return resultado
 while True:
-    print("___________Team: Pontes____________")
-    print("-    checkpoint 1 with python     -")
-    print("___________________________________")
+    print("_________Team: Pontes | Capri | Rafin__________")
+    print("-          checkpoint 1 with python           -")
+    print("_______________________________________________")
     print("\n*use numeros entre 0 a 99*")
     n1 = int(input("Digite o primeiro numero: "))
     n2 = int(input("Digite o segundo numero: "))
