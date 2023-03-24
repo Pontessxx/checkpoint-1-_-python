@@ -1,3 +1,4 @@
+# henrique 
 def troca_sete(x):
     #Substitui todos os dígitos 7 por 0 em um número.
     resultado = 0 #inicia com 0
