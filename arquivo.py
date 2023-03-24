@@ -1,6 +1,6 @@
 # henrique pontes oliveira RM: 98036
 # Felipe Capriotti da silva Santos RM: 98460
-# Rafael Carvalho Mattos RM:99874
+# Rafael Carvalho Mattos RM: 99874
 def troca_sete(x):
     #Substitui todos os dígitos 7 por 0 em um número.
     resultado = 0 #inicia com 0
